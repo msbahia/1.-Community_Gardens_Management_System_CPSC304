@@ -1,24 +1,7 @@
-<!-- Test Oracle file for UBC CPSC304
-  Created by Jiemin Zhang
-  Modified by Simona Radu
-  Modified by Jessica Wong (2018-06-22)
-  Modified by Jason Hall (23-09-20)
-  This file shows the very basics of how to execute PHP commands on Oracle.
-  Specifically, it will drop a table, create a table, insert values update
-  values, and then query for values
-  IF YOU HAVE A TABLE CALLED "demoTable" IT WILL BE DESTROYED
-
-  The script assumes you already have a server set up All OCI commands are
-  commands to the Oracle libraries. To get the file to work, you must place it
-  somewhere where your Apache server can run it, and you must rename it to have
-  a ".php" extension. You must also change the username and password on the
-  oci_connect below to be your ORACLE username and password
--->
 
 <?php
 // The preceding tag tells the web server to parse the following text as PHP
 // rather than HTML (the default)
-
 // The following 3 lines allow PHP errors to be displayed along with the page
 // content. Delete or comment out this block when it's no longer needed.
 // ini_set('display_errors', 1);
@@ -38,8 +21,7 @@ $success = true;	// keep track of errors so page redirects only if there are no 
 $show_debug_alert_messages = False; // show which methods are being triggered (see debugAlertMessage())
 
 // The next tag tells the web server to stop parsing the text as PHP. Use the
-// pair of tags wherever the content switches to PHP
-?>
+// pair of tags wherever the content switches to PHP.
 
 <html>
 
