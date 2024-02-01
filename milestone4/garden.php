@@ -8,11 +8,9 @@
 // ini_set('display_startup_errors', 1);
 // error_reporting(E_ALL);
 
-// Set some parameters
-
-// Database access configuration
+// Database access configuration: user name and password
 $config["dbuser"] = "ora_msbahia";			// change "cwl" to your own CWL
-$config["dbpassword"] = "a85436434";		// change to 'a' + your student number
+$config["dbpassword"] = "axxstudent_numberxxx";		// change to 'a' + your student number
 $config["dbserver"] = "dbhost.students.cs.ubc.ca:1522/stu";
 $db_conn = NULL;	// login credentials are used in connectToDB()
 
